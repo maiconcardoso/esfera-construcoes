@@ -1,0 +1,204 @@
+@charset="utf-8";
+
+/*360px*/
+@media screen and (min-width:360px){
+	.sobre{
+		padding-left:30px;
+	}
+}
+
+/*480px*/
+@media screen and (min-width:480px){
+	.sobre{
+		padding-left:80px;
+	}
+	#contato input, #contato textarea{
+		width:95%;
+	}
+}
+
+/*768px*/
+@media screen and (min-width:768px){
+	.btn-menu{
+		display:none;
+	}
+	.btn-close{
+		display:none;
+	}
+	.menu{
+		display:block;
+		position:relative;
+		padding:0;
+	}
+	.menu ul{
+		float:right;
+		padding:35px 20px 25px 30px;
+		background-color:rgba(30, 45, 59, 1)
+	}
+	.menu ul li{
+		display:inline-block;
+		padding:0;
+	}
+	.menu ul li a{
+		padding:5px;
+		color:white;
+		font-size:13px;
+	}
+	#contato iframe{
+		width:90%;
+		height:300px;
+	}
+	#contato input{
+		width:300px;
+		display:block;
+	}
+	.dados-formulario{
+		float:left;
+		margin-left:10px;
+	}
+	#contato textarea{
+		float:right;
+		width:400px;
+		height:108px;
+		margin-right:10px;
+	}
+	#contato button{
+		clear:both;
+	}
+}
+
+/*980px*/
+@media screen and (min-width:980px){
+	.menu ul li{
+		padding-right:10px;
+	}
+	.menu ul{
+		padding:35px 20px 25px 220px;
+	}
+	#servicos div{
+		padding:0;
+		width:300px;
+		display:inline-block;
+		margin-top:20px;
+		margin-left:10px;
+		margin-right:10px;
+	}
+	#servicos h3{
+		font-size:16px;
+	}
+	#quem-somos img{
+	width:500px;
+	float:right;
+	padding:10px;
+	}
+	.sobre{
+		padding-left:180px;
+	}
+	.sobre div:nth-child(1){
+		border-right:2px solid white;
+		height:100px;
+
+	}
+	.sobre div:nth-child(2){
+		border-right:2px solid white;
+		height:100px;
+
+	}
+	.sobre div:nth-child(3){
+		border-right:2px solid white;
+		height:100px;
+	}
+	#projetos a img{
+		width:180px;
+	}
+	#contato input{
+		width:450px;
+		padding:15px;
+		margin-left:20px;
+	}
+	#contato textarea{
+		height:135px;
+		margin-right:30px;
+		width:40%;
+	}
+	#contato button{
+		margin-right:30px;
+		padding:20px;
+		clear:both;
+	}
+}
+
+/*1280px*/
+@media screen and (min-width:1280px){
+	.logo{
+		width:300px;
+	}
+	.menu ul{
+		padding:35px 20px 25px 500px;
+	}
+	.sobre{
+		padding-left:345px;
+	}
+	#projetos a img{
+		width:230px;
+	}
+	#contato iframe{
+		width:60%;
+	}
+	#contato input, #contato textarea{
+		display:block;
+		width:450px;
+	}
+	#contato input{
+		width:440px;
+	}
+	#contato textarea, #contato button{
+		margin-right:0;
+	}
+	#contato button{
+		margin-bottom:20px;
+	}
+	#contato form{
+		width:500px;
+		float:left;
+	}
+}
+
+@media screen and (min-width:1600px){
+	.menu ul{
+		padding:35px 50px 25px 720px;
+	}
+	.banner{
+		width:1700px;
+	}
+	#quem-somos p{
+		padding:20px;
+	}
+	#quem-somos img{
+		width:800px;
+	}
+	.sobre{
+		padding-left:435px;
+	}
+	.sobre div{
+		width:170px;
+		height:170px;
+	}
+	.sobre h3{
+		font-size:50px;
+	} 
+	.sobre p{
+		font-size:23px;
+	}
+
+	#projetos h2{
+		margin-top:30px;
+	}
+	#projetos a img{
+		width:300px;
+	}
+
+	#contato form{
+		margin-left:100px;
+	}
+}

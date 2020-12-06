@@ -1,0 +1,316 @@
+@charset="utf-8";
+
+/*reset*/
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial, 'Roboto', Helvetica, sans-serif;
+	font-size:100%;
+	font-weight:300;
+}
+ul,ol{
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+h1,h2{
+	font-weight:normal;
+	margin:0;
+}
+.clear{
+	clear:both;
+}
+/*cabecalho*/
+.cabecalho img{
+	float:left;
+	padding:10px;
+	padding-top:0;
+	margin:20px 0 5px 30px;
+	vertical-align:middle;
+}
+.cabecalho{
+	background-color:rgba(237, 205, 31, 1);
+	margin-bottom:-20px;
+}
+.cabecalho h1{
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	padding:25px 0 5px 0;
+	margin-left:0;
+	line-height:15px;
+	vertical-align:middle;
+	float:left;
+}
+.cabecalho span{
+	color:rgba(0,0,0,0.6);
+	font-family: 'Inconsolata', monospace;
+	display:block;
+	margin:0;
+}
+.btn-menu{
+	float:right;
+	padding:30px;
+	cursor:pointer;
+}
+
+/*menu*/
+.menu{
+	background-color:rgba(237, 205, 31, 1);
+	padding:10px;
+	text-align:center;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+ul{
+	padding-top:80px;
+	padding-right:30px;
+}
+ul li{
+	padding:11px;
+	margin-left:0;
+}
+ul li a{
+	padding:10px 40px;
+	color:rgba(0,0,0,0.7);
+	font-weight:500;
+	letter-spacing:2px;
+	font-size:15px;
+}
+.btn-close{
+	padding:20px;
+	float:right;
+	margin-right:20px;
+	cursor:pointer;
+
+}
+.ativo{
+	color:white;
+}
+a:active{
+	color:white;
+}
+/*BANNER*/
+.banner{
+	width:100%;
+	height:480px;
+	background:url(../img/banner1.jpg)no-repeat top;
+	text-align:center;
+}
+.banner h2{
+	padding:20px 0;
+	margin-top:20px;
+	font-weight:bold;
+	color:white;
+}
+.banner a{
+	color:white;
+}
+/*SERVIÇOS*/
+#servicos{
+	width:100%;
+	text-align:center;
+}
+#servicos div{
+	text-align:center;
+	padding:10px;
+}
+#servicos div img{
+	width:300px;
+}
+#servicos h2{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(0,0,0,0.5);
+	padding:20px 0 0 0;
+}
+#servicos hr{
+	background:rgba(237, 205, 31, 1);
+	color:rgba(237, 205, 31, 1);
+	border:none;
+	width:80px;
+	padding:4px;
+	margin-bottom:20px;
+}
+#servicos div{
+	background:rgba(247, 247, 247, 1);
+	margin-bottom:30px;
+}
+#servicos div h3{
+	color:#3D5975;
+}
+#servicos div p{
+	color:rgba(0,0,0,0.7);
+	line-height:25px;
+}
+
+/*quem somos*/
+#quem-somos{
+	width:100%;
+	text-align:center;
+	background:rgba(247, 247, 247, 1);
+	margin-top:30px;
+	padding-bottom:20px;
+}
+#quem-somos img{
+	width:300px;
+}
+#quem-somos h2{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(0,0,0,0.5);
+	padding:20px 0 0 0;
+}
+#quem-somos hr{
+	background:rgba(237, 205, 31, 1);
+	color:rgba(237, 205, 31, 1);
+	border:none;
+	width:80px;
+	padding:4px;
+	margin-bottom:20px;
+}
+#quem-somos p{
+	color:rgba(0,0,0,0.7);
+	line-height:25px;
+	padding:15px;
+	text-align:justify;
+	margin-bottom:0;
+}
+
+/*sobre*/
+
+.sobre{
+	background-color:rgba(237, 205, 31, 1);
+	padding-top:20px;
+}
+.sobre h3{
+	color:white;
+	font-size:30px;
+	margin:0;
+}
+.sobre p{
+	color:#3D5975;
+	font-weight:600;
+	font-size:20px;
+	margin-top:0;
+}
+.sobre div{
+	display:inline-block;
+	width:140px;
+	height:140px;
+	margin:5px;
+	text-align:center;
+}
+
+/*PROJETOS*/
+#projetos{
+	text-align:center;
+}
+#projetos h2{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(0,0,0,0.5);
+	padding:20px 0 0 0;
+}
+#projetos hr{
+	background:rgba(237, 205, 31, 1);
+	color:rgba(237, 205, 31, 1);
+	border:none;
+	width:80px;
+	padding:4px;
+	margin-bottom:20px;
+}
+#projetos div{
+	display:inline-block;
+	padding:5px;
+}
+#projetos a img{
+	width:130px;
+
+}
+#projetos a img:hover{
+	transform:scale(1.1,1.1);
+	transition:0.8s;
+}
+
+/*CONTATO*/
+#contato{
+	text-align:center;
+}
+#contato h2{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(0,0,0,0.5);
+	padding:20px 0 0 0;
+	margin-top:30px;
+}
+#contato hr{
+	background:rgba(237, 205, 31, 1);
+	color:rgba(237, 205, 31, 1);
+	border:none;
+	width:80px;
+	padding:4px;
+	margin-bottom:20px;
+}
+#contato iframe{
+	border:none;
+	padding:10px;
+}
+#contato h3{
+	color:#3D5975;
+}
+#contato p{
+	color:rgba(0,0,0,0.8);
+	padding:10px;
+}
+#contato input{
+	padding:10px;
+	width:85%;
+	margin-bottom:10px;
+	background-color:rgba(247, 247, 247, 1);
+	border:none;
+	font-family:Arial, Helvetica;
+	color:rgba(0,0,0,0.8);
+}
+#contato textarea{
+	background-color:rgba(247, 247, 247, 1);
+	font-family:Arial, Helvetica;
+	font-size:14px;
+	width:85%;
+	height:70px;
+	padding:10px;
+	border:none;
+	color:rgba(0,0,0,0.8);
+}
+#contato button{
+	padding:10px;
+	background:#3D5975;
+	color:white;
+	border:none;
+	margin-top:20px;
+	margin-right:20px;
+	float:right;
+}
+#contato .dados-contato p{
+	margin:10px;
+	padding:0;
+}
+
+/*RODAPE*/
+footer{
+	text-align:center;
+	background-color:rgba(237, 205, 31, 1);
+	color:white;
+	padding:10px;
+	padding-bottom:20px;
+}
+footer a{
+	color:white;
+}
